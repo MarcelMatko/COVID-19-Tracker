@@ -1,0 +1,96 @@
+.container {
+    margin: 50px 0;
+}
+
+.under_number {
+    color: white !important;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.infected_number {
+    font-size: 40px !important;
+    color: #007bff !important;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+.active_number {
+    font-size: 40px !important;
+    color: #ffc107 !important;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+.recovered_number {
+    font-size: 40px !important;
+    color: #28a745 !important;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+.deaths_number {
+    font-size: 40px !important;
+    color: rgb(230, 0, 39) !important;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+.today_cases_number {
+    font-size: 40px !important;
+    color: #ff6a00 !important;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.infected {
+    border-bottom: 5px solid #007bff;
+}
+
+.active {
+    border-bottom: 5px solid #ffc107;
+}
+.recovered {
+    border-bottom: 5px solid #28a745;
+}
+.deaths {
+    border-bottom: 5px solid rgb(230, 0, 39);
+}
+
+.today_cases {
+    border-bottom: 5px solid #ff6a00;
+}
+
+
+
+.box_wrapper .box {
+    background-color: #fafafa;
+    box-shadow: 2px 2px 8px rgba(30,30,30,.6);
+    margin: 10px 15px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background-color: #201e27 !important;
+    color: white;
+  }
+  
+  .box_wrapper .box p {
+    font-size: 2.5rem;
+  }
+  
+  #line-o {
+    border-bottom: 5px solid #ff6a00;
+  }
+  
+  #line-b {
+    border-bottom: 5px solid #007bff;
+  }
+  
+  #line-g {
+    border-bottom: 5px solid #28a745;
+  }
+  
+  #line-r {
+    border-bottom: 5px solid rgb(230, 0, 39);;
+  }
+  
+  #line-y {
+    border-bottom: 5px solid #ffc107;
+  }
